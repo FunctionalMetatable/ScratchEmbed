@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Embed User</title>
+    <meta name="description" content="Embed many things from scratch, here, at ScratchEmbed." />
+    <link href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+    <link href="css/embed.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div class="user-header brand shadow-xl p-3">
+        <div class="flex">
+          <div class="col">
+            <img src="https://cdn2.scratch.mit.edu/get_image/user/1882674_90x90.png" id="pfp" />
+          </div>
+          <div class="col pl-3">
+            <h1 class="text-5xl text-gray-100" id="username"></h1>
+            <br />
+            <p class="text-gray-100" id="joined"></p>
+          </div>
+          <div class="col pl-3 flex-right">
+            <h1>
+              <a href="https://scratch.mit.edu/users/griffpatch" id="view-on-scratch">
+                View on Scratch
+              </a>
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="col p-3 w-96">
+          <h3 class="text-3xl text-gray-900">About me</h3>
+          <p id="bio"></p>
+        </div>
+        <div class="col p-3 w-96">
+          <h3 class="text-3xl text-gray-900">What I'm working on</h3>
+          <p id="wiwo"></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

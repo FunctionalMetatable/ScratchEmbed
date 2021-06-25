@@ -1,0 +1,24 @@
+{
+  "name": "ScratchEmbed",
+  "version": "1.0.0",
+  "description": "Bringing back the original by @locness3 🚀",
+  "main": "index.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunctionalMetatable/ScratchEmbed.git"
+  },
+  "keywords": [],
+  "author": "FunctionalMetatable",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FunctionalMetatable/ScratchEmbed/issues"
+  },
+  "homepage": "https://github.com/FunctionalMetatable/ScratchEmbed#readme"
+}
