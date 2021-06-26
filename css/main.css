@@ -1,0 +1,5 @@
+input {
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  border: 2px solid #1e40af;
+}

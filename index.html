@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ScratchEmbed</title>
+    <meta name="description" content="Embed many things from scratch, here, at ScratchEmbed." />
+    <link href="https://unpkg.com/tailwindcss@latest/dist/tailwind.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Landing Page -->
+    <div class="flex bg-blue-400 main">
+      <div class="col w-1/2 p-10">
+        <h1 class="text-2xl">Promote your Scratch profiles, studios and projects, easily with</h1>
+        <h2 class="text-xl font-bold">ScratchEmbed</h2>
+
+        <input type="text" id="textbox" class="w-1/2 h-12 radius-10" />
+        <button id="changeIframeBtn" class="bg-blue-800 p-3 cursor-pointer">Start</button>
+      </div>
+      <div class="col w-1/2 bg-blue-600 p-10">
+        <h1 class="text-3xl">Get started</h1>
+        <div id="preview">
+          <iframe src="user.html#griffpatch" class="rounded-xl" width="500px" height="500px" id="iframe"></iframe>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/landing.js"></script>
+</html>

@@ -5,3 +5,12 @@
 body {
   background: white;
 }
+
+body.loading {
+  filter: blur(2px);
+}
+
+.pfp {
+  width: 90px;
+  height: 90px;
+}
